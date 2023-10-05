@@ -1,0 +1,1 @@
+# hdk6nx_szamitogeparchitekturak
