@@ -1,0 +1,93 @@
+1. Melyik az aktuális jegyzék?
+pwd
+
+2. Lépjen a gyökérjegyzékbe!
+tree
+
+3. Lépjen a saját home jegyzékébe!
+cd /home
+
+4. Lépjen a rendszergazda home jegyzékébe (a jogosultsági rendszer valószínűleg megakadályozza
+majd)!
+cd /root
+
+5. Lépjen a gyökérjegyzékből nyíló etc jegyzékbe!
+cd /etc
+
+6. Lépjen vissza egy szinttel feljebb!
+cd ..
+
+7. Jelenítse meg az aktuális jegyzék tartalomjegyzékét!
+ls
+
+8. Jelenítse meg a /etc, majd a /var/log jegyzék tartalomjegyzékét is (részletes adatokkal)!
+cd ls -a 
+cd ls -a
+
+9. Lépjen a saját home jegyzékébe! Hozzon létre egy új aljegyzéket, a neve legyen Teszt!
+mkdir Teszt 
+cd Teszt
+mkdir T1 T2
+
+10. Egyetlen paranccsal hozzon létre ebben két újabb jegyzéket, T1-et és T2-t!
+
+11. Rajzoltassa ki a jegyzékstruktúrát a tree paranccsal!
+tree
+
+12. Egyetlen paranccsal hozzon létre a Teszt jegyzékből nyíló három, egymásból nyíló jegyzéket:
+Unix/Linux/Debian néven!
+cd Teszt
+mkdir -p Unix/Linux/Debian
+
+
+13. Nevezze át a Debian jegyzéket Deb-re!
+mv Debian Deb
+
+14. Helyezze át a Deb jegyzéket a T1-be!
+---
+
+15. Törölje a T1 jegyzéket!
+rmdir T1
+
+16. Egyetlen paranccsal törölje a Teszt jegyzéket!
+rm -r Teszt
+
+17. Jelenítse meg az aktuális jegyzék tartalmát!
+tree
+
+18. Jelenítse meg a /etc jegyzék tartalmát részletesen!
+cd /etc
+ls -a
+
+19. Jelenítse meg a /etc jegyzék conf kiterjesztésű fájljait!
+cd /etc
+ls -t *.conf
+
+20. Jelenítse meg a /etc könyvtár azon fájljait, melyek p-vel kezdődnek!
+cd /etc
+ls -d p*
+
+21. Jelenítse meg a /etc jegyzék azon fájljait, melyek f-re végződnek!
+cd /etc
+ls -d *f
+
+22. Jelenítse meg a /etc jegyzék azon fájljait, melyek első karaktere p, a harmadik s és d-re
+végződnek!
+cd /etc 
+ls -d p*s*d
+
+23. Jelenítse meg a home jegyzékének tartalmát a benne levő rejtett fájlokkal együtt!
+cd /home
+ls -a
+
+24. Jelenítse meg a /etc jegyzék azon fájljait, melyek második karaktere a vagy n!
+--
+
+25. Jelenítse meg a /etc jegyzék azon fájljait, melyek második karaktere nem a és nem n!
+--
+
+26. Jelenítse meg a rendszer összes fájlját és jegyzékét (hosszan fut)!
+cd /home
+tree
+
+27.Indítsa el a Midnight Commanert!
