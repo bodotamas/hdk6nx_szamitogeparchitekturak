@@ -1,0 +1,77 @@
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+body
+{
+	font-family: 'Courier New', Courier, monospace;
+	margin-left: 40px;
+	margin-right: 40px;
+	
+}
+
+.kezdolap
+{
+    background-color: lightblue
+}
+
+.programozas
+{
+	background-color: lightgoldenrodyellow;
+}
+
+.analizis
+{
+	background-color: lightcoral;
+}
+
+.diszkretmatek
+{
+	background-color: lightgray;
+}
+
+table 
+{
+	border-collapse: collapse;
+	width: 300px;
+	margin: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: auto;
+	font-weight: bold;
+}
+
+tr, td {
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+tr {
+
+	color: white;
+}
+
+p
+{
+	text-align: justify;
+}
+
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selection
+{
+    margin-right: 70%;
+}
